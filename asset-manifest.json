@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/task-prioritization-app.git/static/css/main.a0ed49f9.css",
+    "main.js": "/task-prioritization-app.git/static/js/main.eaf0b9b8.js",
+    "static/js/453.b86260fc.chunk.js": "/task-prioritization-app.git/static/js/453.b86260fc.chunk.js",
+    "index.html": "/task-prioritization-app.git/index.html",
+    "main.a0ed49f9.css.map": "/task-prioritization-app.git/static/css/main.a0ed49f9.css.map",
+    "main.eaf0b9b8.js.map": "/task-prioritization-app.git/static/js/main.eaf0b9b8.js.map",
+    "453.b86260fc.chunk.js.map": "/task-prioritization-app.git/static/js/453.b86260fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0ed49f9.css",
+    "static/js/main.eaf0b9b8.js"
+  ]
+}
