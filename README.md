@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Task Prioritization App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Task Prioritization App is a to-do list application that allows users to prioritize tasks by order of importance. The app provides features such as adding, editing, and deleting tasks, reordering tasks by priority, and filtering tasks by status (completed, pending).
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Add Task:** Users can add new tasks with a title, description, and priority level (High, Medium, Low).
+- **Edit Task:** Users can edit existing tasks to update the title, description, and priority level.
+- **Delete Task:** Users can delete tasks they no longer need.
+- **Visual Indicators:** Tasks are color-coded based on their priority level (High: Red, Medium: Yellow, Low: Green).
+- **Filter Tasks:** Users can filter tasks by status (All, Completed, Pending).
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js:** Front-end library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **react-beautiful-dnd:** Library for drag-and-drop functionality.
+- **GitHub Pages:** Platform for hosting and deploying the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/iamswethaa/task-prioritization-app.git
+   cd task-prioritization-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies:**
+   ```bash
+   npm install
 
-### `npm run build`
+3. **Run the development server:**
+   ```bash
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Add a Task:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Enter the task title and description.
+    - Select the priority level (High, Medium, Low).
+    - Click "Add Task".
 
-### `npm run eject`
+2. **Edit a Task:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    - Click the "Edit" button next to the task.
+    - Update the task details and click "Save Changes."
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Delete a Task:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - Click the "Delete" button next to the task.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Filter Tasks:**
 
-## Learn More
+    - Use the filter dropdown to view tasks by status (All, Completed, Pending).
+ 
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please feel free to submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Liscense
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for details.
